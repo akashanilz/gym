@@ -1,0 +1,56 @@
+.call{
+    background: black;
+}
+
+
+.c {
+    margin: 5px 10px 10px;
+  padding: 10px 20px;
+  font: 400 1em/1.3em Tahoma,Geneva,sans-serif;
+  color: #333;
+  background:url(../images/front.jpg);
+  /* border: 1px solid #ddd; */
+  border-radius: .25em;
+  overflow: auto;
+    width: 50%;
+    margin-top: -3px;
+  }
+  /* td {
+    color: #3D366F;
+  font-size: 13px;
+  } */
+  .frms {
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Tahoma,Geneva,sans-serif;
+  color: #333;
+  font-size: .9em;
+  line-height: 1.2em;
+  }
+  .frms input[type=text], select {
+  width: 99%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: .35em;
+  -moz-border-radius: .35em;
+  -webkit-border-radius: .35em;
+  -o-border-radius: .35em;
+  padding: 0 .5%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 35px;
+  }
+  input[type=button] {
+  background: #468cd2;
+  border-bottom: #3277bc 3px solid;
+  text-shadow: #214d73 1px 1px 0;
+    padding: 7px 14px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  border-radius: .3em;
+  -moz-border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -o-border-radius: .2em;
+  margin: 10px 0;
+  }

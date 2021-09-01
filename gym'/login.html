@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.3),rgba(255,255,255,0.4),#ff9933) ,url(./valery-sysoev-LDAirERNzew-unsplash.jpg);
+            background-size: cover;
+            min-height: 100vh;
+        }
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            background-color: rgba(0,0, 0, 0.8);
+            padding: 40px;
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0,0, 0, 0.7);
+            border-radius: 10px;
+            
+        }
+        .box h2{
+            margin: 0 0 30px;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+        }
+        .box .inputBox{
+            position: relative;
+        }
+        .box .inputBox input{
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 40px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+            letter-spacing: 1px;
+        }
+        .box .inputBox label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 1rem;
+            color: #fff;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .box .inputBox input:focus ~ label,
+        .box .inputBox input:valid ~ label
+        {
+            top: -18px;
+            color: #03a9f4;
+            left: 0;
+            font-size: .9rem;
+
+        }
+        .box input[type="submit"]
+        {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            background: #03a9f4;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        @media screen and (max-width:476px) {
+            
+              .box{
+                width: 357px;
+              }  
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Login</h2>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" name="" required="">
+                <label for="">Username</label>
+            </div>
+            <div class="inputBox">
+                <input type="" name="" required="">
+                <label for="">Password</label>
+            </div>
+            <input type="submit" value="submit" name="">
+        </form>
+    </div>
+</body>
+</html>

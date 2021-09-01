@@ -1,0 +1,58 @@
+/*.header1
+{
+    background-color: aqua;
+}
+.navbar
+{
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+}
+.bg-light
+{
+    background-color: aqua !important;
+}*/
+.header1 i{
+    color:#fff !important;
+}
+.counter
+{
+    margin-right: 30px;
+}
+.counter:hover
+{
+    text-decoration: none;
+}
+.counter p
+{
+    width: 2%;
+    height: 23px;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    border-radius: 80%;
+    top: 11px;
+    right: 38px;
+    text-align: center;
+}
+
+    
+
+/* table */
+
+.tb-img
+{
+    min-height: 100x;
+}
+.row-sec
+{
+    background-color: aqua;
+}
+.col-sec
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+  
+
